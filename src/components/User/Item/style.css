@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border: 1px solid var(--gray);
+  position: relative;
+  background-color: #fff;
+  width: 100%;
+}
+
+.container:hover {
+  box-shadow: 5px 5px 2px -2px #666;
+}
+
+.container h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.icon-gender {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.female-color {
+  color: #e61d75;
+}
+
+.male-color {
+  color: #4285f6;
+}
+
+.text-data {
+  display: flex;
+  flex-direction: column;
+  color: #666;
+}
+
+.avatar-img {
+  padding: 0.4rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  border-top: 1px solid var(--gray);
+  margin-top: 0.5rem;
+  padding-top: 0.2rem;
+}
+
+.btn-link {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--link);
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.btn-gray {
+  color: var(--dark-gray);
+}
+
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row;
+  }
+
+  .container h2 {
+    text-align: left;
+  }
+}

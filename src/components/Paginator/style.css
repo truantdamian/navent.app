@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.5rem;
+}
+
+.container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #4285f6;
+}
+
+.container button:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+  color: #000 !important;
+  cursor: default !important;
+  text-decoration: none !important;
+}

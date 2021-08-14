@@ -1,0 +1,24 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.button {
+  padding: 0.5rem;
+  background-color: transparent;
+  cursor: pointer;
+  color: #666;
+}
+
+.btn-save {
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+.btn-cancel {
+  border: 1px solid var(--dark-gray);
+  color: var(--dark-gray);
+}

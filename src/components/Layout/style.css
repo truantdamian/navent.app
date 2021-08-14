@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}
+
+.main {
+  height: 100%;
+  padding: 1rem;
+  background-color: #ddd;
+}

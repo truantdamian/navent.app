@@ -1,0 +1,24 @@
+:root {
+  --green: #4caf50;
+  --dark-green: #285b2a;
+  --link: #4285f6;
+  --gray: #ccc;
+  --dark-gray: #666;
+}
+
+html,
+body,
+body > div:first-child {
+  height: 100%;
+  font-size: 1rem;
+  background-color: var(--gray);
+}
+
+*,
+*::after,
+*::before {
+  font-family: "Courier New", monospace;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
